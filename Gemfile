@@ -8,5 +8,8 @@ gem 'sass-rails', '~> 5.0'
 gem 'jquery-rails'
 
 group :development, :test do
+  gem 'capybara'
+  gem 'capybara-webkit'
   gem 'pry'
+  gem 'rspec-rails'
 end
