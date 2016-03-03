@@ -1,0 +1,7 @@
+<div class="notifications">
+  <%= render partial: "shared/alert", locals: { type: "success",  message: flash[:notice] } %>
+  <%= render partial: "shared/alert", locals: { type: "danger", message: flash[:alert] } %>
+
+  <%= render partial: "shared/alert", locals: { type: "success",  message: params[:notice] } %>
+  <%= render partial: "shared/alert", locals: { type: "danger", message: params[:alert] } %>
+</div>
